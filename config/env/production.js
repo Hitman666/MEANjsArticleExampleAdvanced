@@ -24,10 +24,10 @@ module.exports = {
 		js: 'public/dist/application.min.js'
 	},
 	facebook: {
-		clientID: process.env.FACEBOOK_ID || 'APP_ID',
-		clientSecret: process.env.FACEBOOK_SECRET || 'APP_SECRET',
-		callbackURL: '/auth/facebook/callback'
-	},
+                clientID: process.env.FACEBOOK_ID || '1641900646025936',
+                clientSecret: process.env.FACEBOOK_SECRET || 'a7350f13c09727c149226de3a93c6e48',
+                callbackURL: '/auth/facebook/callback'
+        },
 	twitter: {
 		clientID: process.env.TWITTER_KEY || 'CONSUMER_KEY',
 		clientSecret: process.env.TWITTER_SECRET || 'CONSUMER_SECRET',
